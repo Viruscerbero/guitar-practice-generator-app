@@ -1,0 +1,77 @@
+html {
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.app {
+	position: relative;
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	border-style: solid;
+	border-radius: 7.5px;
+	max-height: 80vh;
+}
+
+.timerDisplay {
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #000;
+}
+
+.timerDisplay.aware {
+	color: darkorange;
+}
+
+button {
+	background-color: darkred;
+	color: white;
+	border-radius: 15px;
+	width: 80px;
+	height: 30px;
+	outline: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-color: indianred;
+}
+
+.exercisesContainer {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 75%;
+}
+
+.exercisesContainer .exercise {
+	overflow: hidden;
+	text-align: center;
+}
+
+.exercisesContainer > div {
+	max-width: 40%;
+	min-height: 40vh;
+}
+
+.exercisesContainer .description {
+	font-size: 1.7rem;
+	text-align: center;
+}
+
+.exercisesContainer > div > p.title {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.timerControl {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10%;
+}
