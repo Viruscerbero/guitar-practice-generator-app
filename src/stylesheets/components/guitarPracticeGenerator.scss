@@ -1,0 +1,18 @@
+.app {
+	position: relative;
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	border-style: solid;
+	border-radius: 7.5px;
+	max-height: 80vh;
+}
+
+.exercisesContainer {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 75%;
+}

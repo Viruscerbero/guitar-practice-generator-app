@@ -1,10 +1,10 @@
-/* React main Component of the application */
+/* React main application Component */
 
 import React, { Component } from 'react';
 import { Timer } from "./Timer.jsx";
 import { Exercise } from "./Exercise.jsx";
 import { store } from "./store/Store.jsx";
-import "../css/styles.css";
+import "../stylesheets/main.scss";
 
 
 class GuitarPracticeGenerator extends Component {

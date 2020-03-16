@@ -1,5 +1,7 @@
 /* React Component to control the display */
+
 import React from 'react';
+
 
 export function Display(props) {
 

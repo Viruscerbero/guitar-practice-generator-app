@@ -1,0 +1,20 @@
+.exercisesContainer .exercise {
+	overflow: hidden;
+	text-align: center;
+}
+
+.exercisesContainer > div {
+	max-width: 40%;
+	min-height: 40vh;
+}
+
+.exercisesContainer .description {
+	font-size: 1.7rem;
+	text-align: center;
+}
+
+.exercisesContainer > div > p.title {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
