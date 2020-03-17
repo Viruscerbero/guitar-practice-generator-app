@@ -24,8 +24,23 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.css$/,
-				use: ['style-loader', 'css-loader'],
+				test: /\.s[ac]ss$/i,
+				use: [
+					'style-loader',
+					{
+						loader: 'css-loader',
+						options: {
+							importLoaders: 1,
+							modules: true
+						}
+					}
+				],
+				include: /\.module.(s(a|c)ss)$/
+			},
+			{
+				test: /\.s[ac]ss$/i,
+				use: ['style-loader', 'css-loader', 'sass-loader'],
+				exclude: /\.module.(s(a|c)ss)$/
 			},
 			{
 				test: /\.(png|svg|jpg|gif)$/,

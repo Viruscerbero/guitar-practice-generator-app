@@ -1,0 +1,14 @@
+.app {
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	border-style: solid;
+
+	&.big {
+		border-radius: 7.5px;
+		width: 80vw;
+		max-height: 80vh;
+	}
+}

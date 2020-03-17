@@ -1,6 +1,5 @@
 import { createStore } from 'redux';
 import { exerciseUpdater } from "../reducers/ExerciseUpdater.jsx";
-import { getRandomInt } from "../../utilities/utils.jsx";
 
 
 const initialState = {
