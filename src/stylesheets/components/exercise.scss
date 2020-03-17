@@ -1,20 +1,28 @@
-.exercisesContainer .exercise {
-	overflow: hidden;
-	text-align: center;
-}
+.exercisesContainer {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 75%;
 
-.exercisesContainer > div {
-	max-width: 40%;
-	min-height: 40vh;
-}
+	> div {
+		max-width: 40%;
+		min-height: 40vh;
 
-.exercisesContainer .description {
-	font-size: 1.7rem;
-	text-align: center;
-}
+		> p.title {
+			text-align: center;
+			font-weight: bold;
 
-.exercisesContainer > div > p.title {
-	font-weight: bold;
-	font-size: 2rem;
-	text-align: center;
+			font-size: 2rem;
+		}
+	}
+
+	& .exercise {
+		overflow: hidden;
+		text-align: center;
+	}
+
+	& .description {
+		text-align: center;
+		font-size: 1.7rem;
+	}
 }

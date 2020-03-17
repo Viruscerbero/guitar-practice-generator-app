@@ -1,11 +1,13 @@
 .timerDisplay {
-	font-size: 3.5rem;
 	font-weight: bold;
-	color: #000;
-}
 
-.timerDisplay.aware {
-	color: darkorange;
+	font-size: 3.5rem;
+
+	color: #000;
+
+	&.aware {
+		color: darkorange;
+	}
 }
 
 .timerControl {
@@ -13,5 +15,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
 	margin-bottom: 10%;
 }

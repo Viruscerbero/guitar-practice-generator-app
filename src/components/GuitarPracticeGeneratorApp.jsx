@@ -42,7 +42,7 @@ class GuitarPracticeGenerator extends Component {
 
     render () {
         return (
-			<div className="app">
+			<div className="app big">
 				<h1>The Guitar Practice Generator App</h1>
 				<div className="exercisesContainer">
 					<Exercise
