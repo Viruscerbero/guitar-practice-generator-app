@@ -1,5 +1,7 @@
 @import "./brand/base.scss";
-@import "./components/guitarPracticeGenerator.scss";
-@import "./components/timer.scss";
-@import "./components/exercise.scss";
-@import "./components/button.scss";
+@import "./brand/colors.scss";
+@import "./brand/typography.scss";
+@import "./components/guitarPracticeGenerator.module.scss";
+@import "./components/timer.module.scss";
+@import "./components/exercise.module.scss";
+@import "./components/button.module.scss";

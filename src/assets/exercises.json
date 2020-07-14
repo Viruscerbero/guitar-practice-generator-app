@@ -28,42 +28,42 @@
 		"diagram": ""
 	},
 	"exercise_5": {
-		"id": "4",
+		"id": "5",
 		"description": "F minor.",
 		"notes": "f - g - a♭ - b♭ - c - d♭ - e♭",
 		"strings": "On strings E, A and D.",
 		"diagram": ""
 	},
 	"exercise_6": {
-		"id": "4",
+		"id": "6",
 		"description": "F altered.",
 		"notes": "f - g♭ - a♭ - a - b - d♭ - e♭",
 		"strings": "On strings D, G and B.",
 		"diagram": ""
 	},
 	"exercise_7": {
-		"id": "4",
+		"id": "7",
 		"description": "G mixolydian.",
 		"notes": "g - a - b - c - d - e - f",
 		"strings": "On strings E, A, D and G.",
 		"diagram": ""
 	},
 	"exercise_8": {
-		"id": "4",
+		"id": "8",
 		"description": "C major blues pentatonic.",
 		"notes": "c - d - d♯ - e - g - a",
 		"strings": "On strings A and D.",
 		"diagram": ""
 	},
 	"exercise_9": {
-		"id": "4",
+		"id": "9",
 		"description": "B minor blues pentatonic.",
 		"notes": "b - d - e - e♯ - f♯ - a",
 		"strings": "On strings G, B and E.",
 		"diagram": ""
 	},
 	"exercise_10": {
-		"id": "4",
+		"id": "10",
 		"description": "D♭7.",
 		"notes": "d♭ - e♭ - f - g - a♭ - b♭ - c",
 		"strings": "On strings A, D and G.",
