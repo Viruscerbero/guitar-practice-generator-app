@@ -25,22 +25,26 @@ module.exports = {
 			},
 			{
 				test: /\.s[ac]ss$/i,
+				exclude: /node_modules/,
+				include: /\.module.(s(a|c)ss)$/,
 				use: [
 					'style-loader',
 					{
 						loader: 'css-loader',
 						options: {
-							importLoaders: 1,
-							modules: true
+							modules: {
+								localIdentName: "[name]__[local]__[hash:base64:5]",
+							},
+							sourceMap: true
 						}
-					}
-				],
-				include: /\.module.(s(a|c)ss)$/
+					},
+					'sass-loader',
+				]
 			},
 			{
 				test: /\.s[ac]ss$/i,
-				use: ['style-loader', 'css-loader', 'sass-loader'],
-				exclude: /\.module.(s(a|c)ss)$/
+				exclude: /\.module.(s(a|c)ss)$/,
+				use: ['style-loader', 'css-loader', 'sass-loader']
 			},
 			{
 				test: /\.(png|svg|jpg|gif)$/,

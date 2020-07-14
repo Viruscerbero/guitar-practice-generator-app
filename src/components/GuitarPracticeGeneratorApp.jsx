@@ -1,13 +1,13 @@
 /* React main application Component */
 
-import React, { Component } from 'react';
+import React from 'react';
 import { Timer } from "./Timer.jsx";
 import { Exercise } from "./Exercise.jsx";
 import { store } from "./store/Store.jsx";
 import "../stylesheets/main.scss";
 
 
-class GuitarPracticeGenerator extends Component {
+class GuitarPracticeGenerator extends React.Component {
 
 	constructor (props) {
 		super (props);
