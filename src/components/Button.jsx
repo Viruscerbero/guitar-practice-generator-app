@@ -6,7 +6,7 @@ import React from 'react';
 export function Button(props) {
 
 	function handleClick(event, action) {
-		action()
+		action();
 	}
 
 	return (

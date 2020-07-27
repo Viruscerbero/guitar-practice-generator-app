@@ -7,7 +7,7 @@ import { store } from "./store/Store.jsx";
 import "../stylesheets/main.scss";
 
 
-class GuitarPracticeGenerator extends React.Component {
+class GuitarPracticeGeneratorApp extends React.Component {
 
 	constructor (props) {
 		super (props);
@@ -42,8 +42,10 @@ class GuitarPracticeGenerator extends React.Component {
 
     render () {
         return (
-			<div className="app big">
-				<h1>The Guitar Practice Generator App</h1>
+			<div className="app">
+				<header>
+					<h1>Guitar Practice Generator</h1>
+				</header>
 				<div className="exercisesContainer">
 					<Exercise
 						title = "Current exercise"
@@ -61,4 +63,4 @@ class GuitarPracticeGenerator extends React.Component {
 		);
     }
 }
-export { GuitarPracticeGenerator as GuitarPracticeGeneratorApp };
+export { GuitarPracticeGeneratorApp };
