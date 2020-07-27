@@ -15,23 +15,6 @@
 
 <p>Another important aspect of this so-called "ludic component" is to ease self and peer assessment.</p>
 
-<p>This is how the application works: when the user clicks on Start a new exercise is shown on the right side for five seconds. The exercise is a combination of a random rhythmic phrase and a random scale. Then the exercise is moved to the left and the user is expected to improvise for twenty seconds using only the given rhythm and notes. After fifteen seconds in this stage, a new combination of a random rhythmic phrase and a random scale is generated and displayed on the right side, to let the user know what the next exercise will be while they still have five more seconds to perform. At the end of the last five seconds of improvisation, the new exercise is moved to the left and becomes the current exercise. Then the whole cycle repeats again.</p>
-
-<br>
-<picture>
-	<source srcset=""phase_1.png 516w" media="(max-width: 600px)">
-	<img src="phase_1.png" width="700px" height="auto" alt="Guitar practice generator: phase_1">
-</picture>
-<br>
-<picture>
-	<source srcset="phase_2.png 516w" media="(max-width: 600px)">
-	<img src="phase_2.png" width="700px" height="auto" alt="Guitar practice generator: phase_2">
-</picture>
-<br>
-	<source srcset="phase_3.png 516w" media="(max-width: 600px)">
-	<img src="phase_3.png" width="700px" height="auto" alt="Guitar practice generator: phase_3">
-</picture>
-<br>
 
 <h2>Pain Points</h2>
 
