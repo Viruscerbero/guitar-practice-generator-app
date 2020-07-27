@@ -46,6 +46,8 @@ export class Timer extends Component {
 
 		delete(this.timerId);
 
+		this.setState({ counter: Config.PREPARATION_TIME });
+
 		store.dispatch({ "type": "INIT" });
 	}
 

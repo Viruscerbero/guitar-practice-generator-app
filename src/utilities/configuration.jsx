@@ -1,4 +1,4 @@
-/* Constants file */
+/* Configuration file */
 
 export const Config = {
 	MAXIMUM_EXERCISES_NUMBER: 10,

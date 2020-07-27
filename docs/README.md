@@ -13,7 +13,7 @@
 
 <p>This is a proof of concept for developing the ludic aspects of a bigger e-learning system. The ludic component should exhibit some characteristics proper of video games, like timers, score, and challenges that depend on the user’s skills levels. Another important aspect of this so-called "ludic component" is to ease self and peer assessment.</p>
 
-<p>This is how the application works: when the user clicks on Start a new exercise is shown on the right side for five seconds. The exercise is a combination of a random rhythmic phrase and a random scale. Then the exercise is moved to the left and the user is expected to improvise for twenty seconds using only the given rhythm and notes. After fifteen seconds in this stage, a new combination of a random rhythmic phrase and a random scale is generated and displayed on the right side, to let the user know what the next exercise will be while they still have five more seconds to perform. At the end of the last five seconds of improvisation, the new exercise is moved to the left and becomes the current exercise. Then the whole cycle repeats over and over</p>
+<p>This is how the application works: when the user clicks on Start a new exercise is shown on the right side for five seconds. The exercise is a combination of a random rhythmic phrase and a random scale. Then the exercise is moved to the left and the user is expected to improvise for twenty seconds using only the given rhythm and notes. After fifteen seconds in this stage, a new combination of a random rhythmic phrase and a random scale is generated and displayed on the right side, to let the user know what the next exercise will be while they still have five more seconds to perform. At the end of the last five seconds of improvisation, the new exercise is moved to the left and becomes the current exercise. Then the whole cycle repeats over and over.</p>
 
 <br>
 <picture>
@@ -26,6 +26,7 @@
 	<img src="big-screen-phase_2.png" width="768px" height="auto" alt="Guitar practice generator: phase_2">
 </picture>
 <br>
+<picture>
 	<source srcset="phase_3.png 516w" media="(max-width: 600px)">
 	<img src="big-screen-phase_3.png" width="768px" height="auto" alt="Guitar practice generator: phase_3">
 </picture>
