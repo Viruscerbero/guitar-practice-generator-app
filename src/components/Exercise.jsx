@@ -25,14 +25,20 @@ export function Exercise(props) {
 	}
 
 	return (
-		<div>
+		<div className="exercise">
 			<p className="title"> { props.title } </p>
 
-			<div className="exercise">
+			<div className="image">
 				<img src={ rhythmImgSrc } />
 			</div>
 
-			<div className="description"> { description } <br/> { notes } <br/> { strings } </div>
+			<div className="description">
+				<span>{ description }</span>
+				<br/>
+				{ notes }
+				<br/>
+				{ strings }
+			</div>
 		</div>
 	);
 }
